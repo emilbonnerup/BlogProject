@@ -88,6 +88,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.login {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: auto;
+    left: auto;
+    width: auto;
+    z-index: 1;
+
+    display:inline-block;
+    font-weight:500;
+    color:#a5a5a5;
+    padding:0 20px;
+    border-radius:18px;
+    height:36px;
+    line-height:36px;
+    border:1px solid #e2e2e2;
+    font-size:13px;
+    opacity: 55;
+}
+
 nav {
     display: block;
     margin-bottom: 10px;
