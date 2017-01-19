@@ -89,7 +89,6 @@ textarea {
    ========================================================================== */
 
 .login {
-    position: absolute;
     top: 15px;
     right: 15px;
     bottom: auto;
@@ -106,7 +105,6 @@ textarea {
     line-height:36px;
     border:1px solid #e2e2e2;
     font-size:13px;
-    opacity: 55;
 }
 
 nav {
@@ -131,7 +129,6 @@ nav ul li a {
     text-decoration: none;
     font-weight: normal;
 }
-
 
 body, html {
     padding:0;
@@ -409,8 +406,6 @@ article {
         display:none;
     }
 }
-
-
 
 
 /* ==========================================================================
