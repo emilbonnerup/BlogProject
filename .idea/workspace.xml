@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f860ecc-6d1a-4e4c-b58d-529721720995" name="Default" comment="nu virker det igen">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/application/submit_button.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/head.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/Kanye.jpg" afterPath="$PROJECT_DIR$/public/Kanye.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webproj.iml" afterPath="$PROJECT_DIR$/.idea/webproj.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.css" afterPath="$PROJECT_DIR$/client/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/application/header.html" afterPath="$PROJECT_DIR$/client/templates/application/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/application/not_found.html" afterPath="$PROJECT_DIR$/client/templates/application/not_found.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
-    </list>
+    <list default="true" id="7f860ecc-6d1a-4e4c-b58d-529721720995" name="Default" comment="nu virker det igen" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -458,12 +444,12 @@
       <workItem from="1484835210102" duration="1696000" />
       <workItem from="1484837508692" duration="88000" />
       <workItem from="1484838251877" duration="74000" />
-      <workItem from="1484855085918" duration="4164000" />
+      <workItem from="1484855085918" duration="4195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20931000" />
+    <option name="totallyTimeSpent" value="20962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
