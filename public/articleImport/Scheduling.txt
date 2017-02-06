@@ -1,0 +1,46 @@
+# Scheduling
+Scheduling has the purpose of ensuring that the program delivers the correct output with respect to timings. A scheduling module consists of two main elements:
+
+1. A scheduling algorithm, which sets the rules for ordering the use of systems resources, in particular the processors.
+2. A way of analysing the worst-case behaviour with respect to timings with the scheduling algorithm applied.
+
+In hard real-time systems the worst case behaviour is compared to the timing constraints of the system.
+
+When considering scheduling, keywords as fairness, efficiency and throughput should all be in mind. 
+
+We use the basic process model to analysis the worst case timing behaviour of a real-time algorithm. This has characteristics as all processes are known, the periods of processes are known, processes are independent and all processes has a worst-case execution time.
+
+A set of processes are feasible when the program can run within the time constraints.
+
+/Symbols.png
+
+### Cyclic executive
+Cyclic executive is a classic real-time scheduling model. It uses a static schedule where tasks are implemented as procedures mapped onto a sequence of minor cycles. The complete schedule is called the major cycle, which consists of minor cycles. 
+
+Minor cycles are a sequence of procedure calls and all process periods must be a multiple of minor cycle time. The minor cycle should be as large as possible, and the major cycle should be as small as possible.
+
+### UPPAAL modelling of cyclic executive 
+It is possible to model a cyclic task and a CPU in UPPAAL and given a list of processes with an id, a period and the worst case execution time. The processes can be linked into a system and simulated on the CPU and UPPAAL is able to make a cyclic executive. 
+
+### Priority assignment
+When assigning a priority to a process for the FPS model we use Rate Monotonic Priority Assignment. 
+This way of assigning priorities gives each process a priority based on its period. The lower the period the higher the priority.
+
+When talking about priority based scheduling it can be either preemptive or non-preemptive. When using preemptive scheduling a lower priority process will not be allowed to finish before changing to a higher priority process if one is released during the execution of the low priority process.
+
+This enables better reactiveness for high priority processes.
+
+### Fixed Priority Scheduling
+Each process has a fixed, static priority assigned before run-time and the priority determines the order of execution. 
+
+It is a widely used approach, because of its simplicity. It’s important to note that the priority has nothing to do with the importance of the functionality of the process, only the temporal aspects.
+
+### Earliest Deadline First
+The earliest deadline first model determines execution order based on the absolute deadlines. The next process to run is the one with the shortest deadline (the first deadline to come). The absolute deadlines must be computed at run-time, meaning that this is a dynamic scheduling method.
+
+It is harder to implement than the FPS method, but anything that can be scheduled using the FPS model can be scheduled by EDF as well. 
+
+### Value Based Scheduling
+VBS assigns a value to each process, use on-line value based scheduling algorithm. The functionality is basically that the process with the highest value is scheduled next. 
+
+VBS can be used for systems that can be overloaded where an adaptive scheme is needed. It is easier to handle conceptually unforeseen events.

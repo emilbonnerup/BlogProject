@@ -83,6 +83,8 @@
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.7.7/web.browser/css.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.7.7/web.browser/buffer.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.7.7/web.browser/server.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/markdown/1.0.11/web.browser/template-integration.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/markdown/1.0.11/web.browser/showdown.js" />
         <item url="file://$USER_HOME$/.meteor/packages/localstorage/1.0.12/web.browser/localstorage.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.2.10/web.browser/httpcall_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />
@@ -288,6 +290,8 @@
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.7.7/web.browser/css.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.7.7/web.browser/buffer.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.7.7/web.browser/server.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/markdown/1.0.11/web.browser/template-integration.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/markdown/1.0.11/web.browser/showdown.js" />
       <root url="file://$USER_HOME$/.meteor/packages/localstorage/1.0.12/web.browser/localstorage.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.2.10/web.browser/httpcall_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />

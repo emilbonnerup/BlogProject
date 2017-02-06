@@ -1,17 +1,15 @@
 <template name="header">
-    <a href="{{pathFor 'postsList'}}">
+    <a href="{{pathFor 'home'}}">
         <img src='/head.png' />
     </a>
 <nav>
     <ul>
-        {{#if currentUser isTrue}}
-            {{> submitButton}}
-            {{/if}}
-        <li><a href="pages/archives.html">Archives</a></li>
+        <li>{{> submitButton}}</li>
+        <li><a href="{{pathFor 'archive'}}">Archives</a></li>
         <li><a href="http://katrinechristensen.tumblr.com">Tumblr</a></li>
         <li><a href="pages/contact.html">Contact</a></li>
-        <li >{{> loginButtons}}</li>
+        <li>{{> loginButtons}}</li>
+
     </ul>
 </nav>
-
 </template>
