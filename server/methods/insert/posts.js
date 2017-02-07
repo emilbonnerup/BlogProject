@@ -1,8 +1,6 @@
 Meteor.methods({
     insertPost: function( title, content, imgName ){
-        check( title, String ),
-        check(content, String),
-        check(imgName, String);
+        check(title, String);
 
         var post = {
             title: title,

@@ -9,4 +9,4 @@ Template.submitPost.events({
 
         router.go('postPage',Meteor.call('insertPost', title, content, imgName));
     }
-})
+});
